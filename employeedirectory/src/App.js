@@ -1,11 +1,12 @@
-import React from 'react';
+import Main from "./components/Main";
+import React from "react";
 
-function App () {
+function App() {
   return (
     <div>
-      <h1>Hello World</h1>
+      <Main />
     </div>
   );
-};
+}
 
 export default App;

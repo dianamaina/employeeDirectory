@@ -6,9 +6,9 @@ const Header = (props) => {
   return (
     <div className={"jumbotron"}>
       <h1>Employee Directory</h1>
-      <h6>
-       Enter first name of employee to search for colleague
-      </h6>
+      <h4>
+       Enter first name to search.
+      </h4>
       <input
         type="text"
         name="search"

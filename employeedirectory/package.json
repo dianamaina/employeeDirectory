@@ -2,6 +2,7 @@
   "name": "employeedirectory",
   "version": "0.1.0",
   "private": true,
+  "homepage": "https://dianamaina.github.io/employeeDirectory/",
   "dependencies": {
     "@testing-library/jest-dom": "^5.11.5",
     "@testing-library/react": "^11.1.1",
@@ -14,10 +15,10 @@
   "scripts": {
     "start": "react-scripts start",
     "build": "react-scripts build",
+    "test": "react-scripts test",
+    "eject": "react-scripts eject",
     "deploy":"gh-pages -d build",
     "predeploy": "npm -run build",
-    "test": "react-scripts test",
-    "eject": "react-scripts eject"
   },
   "eslintConfig": {
     "extends": [

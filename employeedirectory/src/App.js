@@ -1,11 +1,16 @@
-import Main from "./components/Main";
-import React from "react";
+  
+import EmployeeTable from "./components/EmployeeTable";
+import Header from "./components/Header";
+import Container from "react-bootstrap/Container";
 
 function App() {
   return (
-    <div>
-      <Main />
-    </div>
+    <>
+      <Header />
+      <Container>
+        <EmployeeTable />
+      </Container>
+    </>
   );
 }
 
